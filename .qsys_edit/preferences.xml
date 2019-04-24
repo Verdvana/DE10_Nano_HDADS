@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="223" />
+   <irq preferredWidth="47" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Library/DE1-SoC,Library,Project" />
+ <window width="1294" height="1407" x="-7" y="0" />
+ <hdlexample language="VERILOG" />
+</preferences>

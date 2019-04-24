@@ -1,0 +1,40 @@
+<BoardInfo pov="hps_0_arm_a9_0">
+<!--
+This file is intended to be used when building device trees 
+for the Altera Cyclone5 SOC Development Kits. 
+This board info file and hps_common_board_info.xml are required input
+to sopc2dts to create a device tree suitable for the Linux kernel.  
+One typically executes sopc2dts as follows:
+
+	sopc2dts -\-input soc_system.sopcinfo -\-output soc_system.dts  
+		 -\-board soc_system_board_info.xml 
+		 -\-board hps_common_board_info.xml -\-bridge-removal all 
+		 -\-clocks
+
+Due to the commenting rules of xml, -\-, should be replaced with two dashes
+when executing the command above.
+
+-->
+
+<DTAppend name="model" type="string" parentlabel="" val="Altera SOCFPGA Cyclone V"/>
+<DTAppend name="compatible" parentlabel="" >
+	<val type="string">altr,socfpga-cyclone5</val>
+	<val type="string">altr,socfpga</val>
+</DTAppend>
+
+<DTAppend name="n25q512a@0" type="node" parentlabel="hps_0_qspi" newlabel="flash0"/>
+<DTAppend name="compatible" type="string" parentlabel="flash0" val="n25q512a"/>
+<DTAppend name="partition@0" type="node" parentlabel="flash0" newlabel="part0"/>
+<DTAppend name="label" type="string" parentlabel="part0" val="Flash 0 Raw Data"/>
+<DTAppend name="reg" parentlabel="part0" >
+<val type="hex">0x0</val>
+<val type="hex">0x800000</val>
+</DTAppend>
+<DTAppend name="partition@800000" type="node" parentlabel="flash0" newlabel="part1"/>
+<DTAppend name="label" type="string" parentlabel="part1" val="Flash 1 jffs2 Filesystem"/>
+<DTAppend name="reg" parentlabel="part1">
+<val type="hex">0x800000</val>
+<val type="hex">0x3800000</val>
+</DTAppend>
+
+</BoardInfo>

@@ -1,0 +1,20 @@
+Fitter Status : Successful - Tue Apr 23 14:44:31 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Revision Name : DE10_Nano_HDADS
+Top-level Entity Name : DE10_Nano_HDADS
+Family : Cyclone V
+Device : 5CSEBA6U23I7DK
+Timing Models : Final
+Logic utilization (in ALMs) : 3,702 / 41,910 ( 9 % )
+Total registers : 6465
+Total pins : 165 / 314 ( 53 % )
+Total virtual pins : 0
+Total block memory bits : 57,436 / 5,662,720 ( 1 % )
+Total RAM Blocks : 11 / 553 ( 2 % )
+Total DSP Blocks : 0 / 112 ( 0 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 1 / 4 ( 25 % )

@@ -1,0 +1,94 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst soc_system.clk_0 -pg 1 -lvl 1 -y 190
+preplace inst soc_system.sysid -pg 1 -lvl 2 -y 740
+preplace inst soc_system.hps_0.clk_0 -pg 1
+preplace inst soc_system.uart_0 -pg 1 -lvl 2 -y 940
+preplace inst soc_system.alt_vip_vfr_0 -pg 1 -lvl 2 -y 480
+preplace inst soc_system.i2c_0 -pg 1 -lvl 2 -y 360
+preplace inst soc_system.hps_0.axi_sdram -pg 1
+preplace inst soc_system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst soc_system.clock_bridge_0 -pg 1 -lvl 1 -y 650
+preplace inst soc_system.hps_0.timer0 -pg 1
+preplace inst soc_system.hps_0.timer1 -pg 1
+preplace inst soc_system.hps_0.i2c0 -pg 1
+preplace inst soc_system.hps_0.timer2 -pg 1
+preplace inst soc_system.hps_0.wd_timer0 -pg 1
+preplace inst soc_system.hps_0.i2c1 -pg 1
+preplace inst soc_system.hps_0.timer3 -pg 1
+preplace inst soc_system.hps_0.wd_timer1 -pg 1
+preplace inst soc_system.hps_0.i2c2 -pg 1
+preplace inst soc_system.hps_0.qspi -pg 1
+preplace inst soc_system.hps_0.gpio0 -pg 1
+preplace inst soc_system.hps_0.i2c3 -pg 1
+preplace inst soc_system.hps_0.clkmgr -pg 1
+preplace inst soc_system.hps_0.gpio1 -pg 1
+preplace inst soc_system.hps_0.arm_a9_0 -pg 1
+preplace inst soc_system.hps_0.L2 -pg 1
+preplace inst soc_system.hps_0.gpio2 -pg 1
+preplace inst soc_system.hps_0.arm_a9_1 -pg 1
+preplace inst soc_system.switch_pio -pg 1 -lvl 2 -y 1060
+preplace inst soc_system.hps_0.uart0 -pg 1
+preplace inst soc_system.hps_0.uart1 -pg 1
+preplace inst soc_system.hps_0.spim0 -pg 1
+preplace inst soc_system.hps_0.spim1 -pg 1
+preplace inst soc_system.hps_0.timer -pg 1
+preplace inst soc_system.hps_0.sysmgr -pg 1
+preplace inst soc_system.hps_0.f2s_periph_ref_clk -pg 1
+preplace inst soc_system.hps_0.l3regs -pg 1
+preplace inst soc_system.hps_0.sdmmc -pg 1
+preplace inst soc_system.button_pio -pg 1 -lvl 2 -y 150
+preplace inst soc_system.hps_0.axi_ocram -pg 1
+preplace inst soc_system.master_ctrl -pg 1 -lvl 4 -y 30
+preplace inst soc_system.led_pio -pg 1 -lvl 2 -y 1160
+preplace inst soc_system.hps_0.arm_gic_0 -pg 1
+preplace inst soc_system.hps_0.rstmgr -pg 1
+preplace inst soc_system.hps_0.usb0 -pg 1
+preplace inst soc_system.hps_0.scu -pg 1
+preplace inst soc_system.hps_0.usb1 -pg 1
+preplace inst soc_system.spi_0 -pg 1 -lvl 2 -y 820
+preplace inst soc_system.hps_0.hps_io -pg 1
+preplace inst soc_system.hps_0.nand0 -pg 1
+preplace inst soc_system.master_write -pg 1 -lvl 2 -y 1260
+preplace inst soc_system.hps_0.gmac0 -pg 1
+preplace inst soc_system.hps_0 -pg 1 -lvl 3 -y 220
+preplace inst soc_system.hps_0.hps_io.border -pg 1
+preplace inst soc_system.hps_0.gmac1 -pg 1
+preplace inst soc_system.hps_0.eosc1 -pg 1
+preplace inst soc_system.hps_0.fpgamgr -pg 1
+preplace inst soc_system.hps_0.dcan0 -pg 1
+preplace inst soc_system.hps_0.eosc2 -pg 1
+preplace inst soc_system.alt_vip_itc_0 -pg 1 -lvl 2 -y 640
+preplace inst soc_system.hps_0.fpga_interfaces -pg 1
+preplace inst soc_system.hps_0.dcan1 -pg 1
+preplace inst soc_system.hps_0.f2s_sdram_ref_clk -pg 1
+preplace inst soc_system.reset_bridge_0 -pg 1 -lvl 2 -y 90
+preplace inst soc_system.hps_0.dma -pg 1
+preplace inst soc_system.hps_0.sdrctl -pg 1
+preplace inst soc_system.hps_0.bridges -pg 1
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)uart_0.external_connection,(SLAVE)soc_system.uart_0) 1 0 2 NJ 970 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)led_pio.external_connection,(SLAVE)soc_system.led_pio) 1 0 2 NJ 1190 NJ
+preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)alt_vip_vfr_0.clock_reset,(SLAVE)alt_vip_itc_0.is_clk_rst,(MASTER)clock_bridge_0.out_clk) 1 1 1 370
+preplace netloc POINT_TO_POINT<net_container>soc_system</net_container>(MASTER)alt_vip_vfr_0.avalon_streaming_source,(SLAVE)alt_vip_itc_0.din) 1 1 2 470 630 770
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.video_tft,(SLAVE)alt_vip_itc_0.clocked_video) 1 0 2 NJ 640 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.memory,(SLAVE)hps_0.memory) 1 0 3 NJ 330 NJ 330 NJ
+preplace netloc FAN_OUT<net_container>soc_system</net_container>(MASTER)hps_0.f2h_irq0,(SLAVE)i2c_0.interrupt_sender,(SLAVE)button_pio.irq,(SLAVE)spi_0.irq,(SLAVE)uart_0.irq) 1 1 3 430 60 NJ 120 1120
+preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)led_pio.s1,(MASTER)hps_0.h2f_lw_axi_master,(SLAVE)i2c_0.av,(SLAVE)master_ctrl.avalon_slave,(SLAVE)sysid.control_slave,(SLAVE)spi_0.spi_control_port,(SLAVE)switch_pio.s1,(SLAVE)alt_vip_vfr_0.avalon_slave,(SLAVE)uart_0.s1,(SLAVE)button_pio.s1) 1 1 3 450 280 NJ 160 1140
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.master_ctrl,(SLAVE)master_ctrl.wire) 1 0 4 NJ 40 NJ 40 NJ 100 NJ
+preplace netloc FAN_IN<net_container>soc_system</net_container>(SLAVE)hps_0.f2h_axi_slave,(MASTER)master_write.avalon_master,(MASTER)alt_vip_vfr_0.avalon_master) 1 2 1 810
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)master_write.user,(SLAVE)soc_system.write_user) 1 0 2 NJ 1330 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.switch_pio,(SLAVE)switch_pio.external_connection) 1 0 2 NJ 1090 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)button_pio.external_connection,(SLAVE)soc_system.button_pio) 1 0 2 NJ 180 NJ
+preplace netloc FAN_OUT<net_container>soc_system</net_container>(SLAVE)sysid.clk,(SLAVE)master_write.clock_reset,(SLAVE)button_pio.clk,(SLAVE)uart_0.clk,(SLAVE)hps_0.h2f_axi_clock,(SLAVE)hps_0.f2h_axi_clock,(MASTER)clk_0.clk,(SLAVE)master_ctrl.clock,(SLAVE)alt_vip_vfr_0.clock_master,(SLAVE)led_pio.clk,(SLAVE)reset_bridge_0.clk,(SLAVE)i2c_0.clock_sink,(SLAVE)spi_0.clk,(SLAVE)hps_0.h2f_lw_axi_clock,(SLAVE)switch_pio.clk) 1 1 3 410 350 790 180 1160
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)master_write.control,(SLAVE)soc_system.write_control) 1 0 2 NJ 1310 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)clk_0.clk_in,(SLAVE)soc_system.clk) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>soc_system</net_container>(SLAVE)alt_vip_vfr_0.clock_master_reset,(SLAVE)sysid.reset,(SLAVE)alt_vip_vfr_0.clock_reset_reset,(MASTER)clk_0.clk_reset,(SLAVE)led_pio.reset,(MASTER)reset_bridge_0.out_reset,(SLAVE)uart_0.reset,(SLAVE)spi_0.reset,(SLAVE)master_ctrl.reset,(SLAVE)button_pio.reset,(SLAVE)switch_pio.reset,(SLAVE)master_write.clock_reset_reset,(SLAVE)alt_vip_itc_0.is_clk_rst_reset,(SLAVE)i2c_0.reset_sink) 1 1 3 350 80 750 140 1180
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.master_write_reset_1,(SLAVE)reset_bridge_0.in_reset) 1 0 2 NJ 120 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)spi_0.external,(SLAVE)soc_system.spi_0) 1 0 2 NJ 850 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.hps_0_hps_io,(SLAVE)hps_0.hps_io) 1 0 3 NJ 310 NJ 310 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(MASTER)hps_0.h2f_reset,(MASTER)soc_system.hps_0_h2f_reset) 1 3 2 NJ 310 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.clk_66m,(SLAVE)clock_bridge_0.in_clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>soc_system</net_container>(SLAVE)soc_system.i2c_0,(SLAVE)i2c_0.wire) 1 0 2 NJ 450 NJ
+levelinfo -pg 1 0 140 1450
+levelinfo -hier soc_system 150 180 500 930 1210 1320

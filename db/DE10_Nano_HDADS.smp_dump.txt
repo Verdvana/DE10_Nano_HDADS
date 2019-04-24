@@ -1,0 +1,155 @@
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:spi_0_spi_control_port_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:uart_0_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:switch_pio_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:button_pio_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:led_pio_s1_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:sysid_control_slave_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:master_ctrl_avalon_slave_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:i2c_0_av_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:pwm_0_as_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:hps_0_f2h_axi_slave_rd_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_0:mm_interconnect_0|altera_merlin_burst_adapter:hps_0_f2h_axi_slave_wr_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|trans_state
+Name trans_state.00 trans_state.10 trans_state.01 
+trans_state.00 0 0 0 
+trans_state.01 1 0 1 
+trans_state.10 1 1 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|alt_vipvfr131_vfr:alt_vip_vfr_0|alt_vipvfr131_vfr_controller:controller|state
+Name state.WAITING_END_FRAME state.SENDING_GO_AND_ENABLE_INTERRUPT state.SENDING_TYPE state.SENDING_WORDS state.SENDING_SAMPLES state.SENDING_ADDRESS state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 
+state.SENDING_ADDRESS 0 0 0 0 0 1 1 
+state.SENDING_SAMPLES 0 0 0 0 1 0 1 
+state.SENDING_WORDS 0 0 0 1 0 0 1 
+state.SENDING_TYPE 0 0 1 0 0 0 1 
+state.SENDING_GO_AND_ENABLE_INTERRUPT 0 1 0 0 0 0 1 
+state.WAITING_END_FRAME 1 0 0 0 0 0 1 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|alt_vipvfr131_vfr:alt_vip_vfr_0|alt_vipvfr131_prc:prc|alt_vipvfr131_prc_core:prc_core|state
+Name state.ENDING state.RUNNING state.WAITING state.IDLE 
+state.IDLE 0 0 0 0 
+state.WAITING 0 0 1 1 
+state.RUNNING 0 1 0 1 
+state.ENDING 1 0 0 1 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|soc_system_mm_interconnect_1:mm_interconnect_1|altera_merlin_burst_adapter:alt_vip_vfr_0_avalon_slave_burst_adapter|altera_merlin_burst_adapter_13_1:altera_merlin_burst_adapter_13_1.burst_adapter|state
+Name state.ST_IDLE state.ST_UNCOMP_WR_SUBBURST state.ST_UNCOMP_TRANS state.ST_COMP_TRANS 
+state.ST_IDLE 0 0 0 0 
+state.ST_COMP_TRANS 1 0 0 1 
+state.ST_UNCOMP_TRANS 1 0 1 0 
+state.ST_UNCOMP_WR_SUBBURST 1 1 0 0 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|oc_i2c_master:i2c_0|i2c_master_top:i2c_top_inst|i2c_master_byte_ctrl:u1|\statemachine:c_state
+Name \statemachine:c_state.st_stop \statemachine:c_state.st_ack \statemachine:c_state.st_write \statemachine:c_state.st_read \statemachine:c_state.st_start \statemachine:c_state.st_idle 
+\statemachine:c_state.st_idle 0 0 0 0 0 0 
+\statemachine:c_state.st_start 0 0 0 0 1 1 
+\statemachine:c_state.st_read 0 0 0 1 0 1 
+\statemachine:c_state.st_write 0 0 1 0 0 1 
+\statemachine:c_state.st_ack 0 1 0 0 0 1 
+\statemachine:c_state.st_stop 1 0 0 0 0 1 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|oc_i2c_master:i2c_0|i2c_master_top:i2c_top_inst|i2c_master_byte_ctrl:u1|i2c_master_bit_ctrl:u1|c_state
+Name c_state.wr_d c_state.wr_c c_state.wr_b c_state.wr_a c_state.rd_d c_state.rd_c c_state.rd_b c_state.rd_a c_state.stop_d c_state.stop_c c_state.stop_b c_state.stop_a c_state.start_e c_state.start_d c_state.start_c c_state.start_b c_state.start_a c_state.idle 
+c_state.idle 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+c_state.start_a 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+c_state.start_b 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+c_state.start_c 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+c_state.start_d 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+c_state.start_e 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+c_state.stop_a 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+c_state.stop_b 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+c_state.stop_c 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+c_state.stop_d 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+c_state.rd_a 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+c_state.rd_b 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+c_state.rd_c 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.rd_d 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.wr_a 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.wr_b 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.wr_c 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+c_state.wr_d 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |DE10_Nano_HDADS|soc_system:u0|alt_vipitc131_IS2Vid:alt_vip_itc_0|alt_vipitc131_IS2Vid_statemachine:statemachine|state_int
+Name state_int.INSERT_ANC state_int.WAIT_FOR_ANC state_int.WAIT_FOR_SYNCH state_int.SYNCHED state_int.FIND_MODE state_int.INTERLACING state_int.HEIGHT_0 state_int.HEIGHT_1 state_int.HEIGHT_2 state_int.HEIGHT_3 state_int.WIDTH_0 state_int.WIDTH_1 state_int.WIDTH_2 state_int.WIDTH_3 state_int.FIND_SOP 
+state_int.FIND_SOP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state_int.WIDTH_3 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state_int.WIDTH_2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_int.WIDTH_1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state_int.WIDTH_0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state_int.HEIGHT_3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state_int.HEIGHT_2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state_int.HEIGHT_1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state_int.HEIGHT_0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state_int.INTERLACING 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state_int.FIND_MODE 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state_int.SYNCHED 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state_int.WAIT_FOR_SYNCH 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state_int.WAIT_FOR_ANC 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_int.INSERT_ANC 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
